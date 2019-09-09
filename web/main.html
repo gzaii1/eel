@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<header>
+<script type="text/javascript" src="/eel.js"></script>
+<script type="text/javascript" src="./jq/jquery.js"></script>
+<script type="text/javascript" src="./bootstrap/dist/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+</header>
+
+<body>
+  <button type="button" name="button" class="btn btn-primary" onclick="alert1()">测试</button>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    console.log('Hello world')
+    console.log(eel.my_python_function(1,2))
+  });
+
+  function alert1(){
+    alert("qwe")
+  }
+
+</script>
+</body>
